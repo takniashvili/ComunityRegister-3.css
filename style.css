@@ -50,7 +50,7 @@
 }
 body {
     background-image: url(./bg-mobile.svg);
-    background-size: 100%;
+    background-size: 375px 800px;
     background-repeat: no-repeat;
     background-color: #684BB1;
     padding: 30px;
@@ -71,7 +71,7 @@ h1 {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     width: 304px;
     height: 120px;
     font-size: 16px;
