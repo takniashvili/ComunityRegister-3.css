@@ -1,0 +1,216 @@
+/* - Mobile: 375px
+- Desktop: 1440px
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/) */
+
+.facebook {
+    width: 18.14px;
+    height: 17px;
+    filter: invert(100%);
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 8px;
+   
+}
+
+.twitter {
+    width: 18.14px;
+    height: 17px;
+    filter: invert(100%);
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.instagram {
+    width: 18.14px;
+    height: 17px;
+    filter: invert(100%);
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid black;
+   
+}
+
+.huddle {
+    height: 29px;
+    width: 120px;
+}
+
+.box {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 299.69px;
+    height: 204.17px; 
+    margin-top: 70px;
+
+}
+body {
+    background-image: url(./images/bg-mobile.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #684BB1;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    width: 280px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 36px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;;
+    width: 304px;
+    height: 120px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+h2 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #684BB1;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    width: 60px;
+    height: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;    
+}
+
+button:hover {
+    background-color: #E880E8;
+    border-color: #E880E8;
+}
+
+h2:hover {
+    color: white;
+}
+
+.facebook:hover {  
+    filter: invert(0%);
+    color: #FF52C1;
+    border-color: #FF52C1;  
+}
+
+.twitter:hover {   
+    filter: invert(0%);
+    color: #FF52C1;
+    border-color: #FF52C1;
+}
+
+.instagram:hover {
+    filter: invert(0%);
+    color: #FF52C1;
+    border-color: #FF52C1;
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+    body {
+        background-image: url(./images/bg-desktop.svg);
+        background-size: 1440px 800px;
+       
+    }
+   
+    main {
+        display:flex;
+        align-items: center;
+    }
+
+    .huddle {
+        margin-left: 20px;
+        width: 160px;
+        height: 72px;
+    }
+
+    .mainimage {
+        margin-top: 35px;
+        margin-left: 20px;
+
+            }
+     .box {
+        width: 690px;
+        height: 450px;
+    }
+
+    h1 {
+        text-align: start;
+        margin-top: 10px;
+        width: 487px;
+        height: 120px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: white;
+        margin-left: 75px;
+
+    }
+
+    p {
+        margin-left: 85px;
+        text-align: start;
+        width: 520px;
+        height:81px;
+        font-weight: 400;
+        line-height: 27px;
+        color: white;
+        font-size: 18px;
+    }
+
+    button {
+        margin-right: 320px;
+        width:200px;
+        height:56px;
+        border-radius: 28px;
+    }
+    
+    footer {
+        display:Flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-right: 50px;
+    }
+}
